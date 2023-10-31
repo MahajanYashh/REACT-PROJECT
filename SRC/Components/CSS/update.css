@@ -1,0 +1,17 @@
+*{
+    margin: 0px auto;
+}
+.container{
+    margin-top:15%;
+    display: flex;
+    align-items: center;
+}
+button{
+    margin-left: 10px;
+}
+form{
+background-color: #fff;
+}
+input{
+    background-color: aqua;
+}

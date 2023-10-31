@@ -1,0 +1,85 @@
+.outlook{
+
+  margin:  -100px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: #fff;
+  margin-top: 5%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+table {
+    margin-top: -50px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 6px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    color:mediumslateblue;
+    font-size: larger;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+button:hover{
+    background-color: turquoise;
+    
+}
+ td button{
+    margin-left: 15px;
+}
+.outlook .action{
+    padding: 5px;
+    display: flex;
+    text-align: center;
+}
+.navbar1 {
+    background-color: #333;
+    width: 250px;
+    height: 100%;
+    position: static;
+    margin-left: 0px;
+    overflow: auto;
+}
+
+.navbar1 a {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar1 a:hover {
+    background-color: #555;
+}
+.navbar1 ul{
+    display: inline
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+h1{
+    margin-top: -120px;
+}
+
+
+
+

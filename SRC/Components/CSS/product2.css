@@ -1,0 +1,16 @@
+*{
+    margin: 0px auto;
+}
+.container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 1320px;
+}
+.row{
+    margin-top: -180px;
+    flex-wrap: wrap;
+    display:flex;
+}
+.col-4{
+    width: 33.33%;
+}

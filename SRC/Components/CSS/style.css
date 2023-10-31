@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    background: none;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+    position:sticky;
+    top: 0;
+}
+
+/* Navigation Bar logo alignment*/
+.navlogo{
+    width: 300px;
+    height: 100px;
+    /* object-fit: cover; */
+} 
+.logo{
+    overflow: hidden;
+    width: 496px;
+    height: 100px;
+
+}
+/* Navigation Bar List Styling */
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin: 20px;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+ul a:hover {
+    color: black;
+    text-decoration: none;
+}
+/* Navigation Bar Ends */
+#home {
+    background: url(../img/index.jpg)no-repeat center center/cover;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    padding: 5px 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    animation: text;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+ 
+  #home h2{
+    margin-top: 50px;
+  }
+  
+  
+  @keyframes text {
+    50% {
+        color: white;
+    }
+  
+    100% {
+        color: black;
+    }
+  }
+  
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    background-color: dodgerblue;
+    color: white;
+    height: 50px;
+    font-size: 16px;
+  }
+  p{
+    margin-bottom: 25px;
+    text-align: center;
+
+  }

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: white;
+}
+ .navlogo{
+    width: 300px;
+    height: 100px;
+    /* object-fit: cover; */
+} 
+.logo{
+    overflow: hidden;
+    width: 496px;
+    height: 100px;
+
+}
+main{
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 10px auto ;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container-about{
+    /* margin:20px  345px; */
+    margin-top: 20px;
+    /* background-color:silver; */
+    padding: 10px;
+    margin-bottom: 0;
+}
+form{
+    /* width: 100%; */
+    /* padding: 10px 0; */
+    box-shadow: 0 0 10px rgb(98, 103, 167);
+    padding: 20px;
+}
+p{
+    margin-bottom: 10px;
+}
+h2{
+    margin-top: 0;
+    color: dodgerblue;
+}
+label{
+    margin-bottom: 10px;
+}
+input[type=text], input[type=email],textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px double black;
+    /* background-color: rgb(232, 225, 225); */
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    /* padding: 14px 20px; */
+    /* margin-bottom: 0; */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bolder;
+  }
+  
+  input[type=submit]:hover {
+    background-color:turquoise ;
+  }
